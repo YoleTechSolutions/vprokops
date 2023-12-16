@@ -13,13 +13,13 @@ spec:
     metadata:
       labels:
         app: vproapp
-  spec:
-    containers:
-      - name: vproapp
-        image: iamyole/vprofileapp:latest
-        ports:
-          - name: vproapp-port
-            containerPort: 8080
+    spec:
+      containers:
+        - name: vproapp
+          image: iamyole/vprofileapp:latest
+          ports:
+            - name: vproapp-port
+              containerPort: 8080
     initContainers:
       - name: init-mydb
         image: busybox
