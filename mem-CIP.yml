@@ -6,7 +6,7 @@ spec:
   ports:
     - port: 11211
       targetPort: vprocache01-port
-      protocal: TCP 
+      protocol: TCP 
   selector:
     app: vprocache01
   type: ClusterIP
