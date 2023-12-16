@@ -10,9 +10,9 @@ spec:
       app: vproapp
   replicas: 1
   template:
-  metadata:
-    labels:
-      app: vproapp
+    metadata:
+      labels:
+        app: vproapp
   spec:
     containers:
       - name: vproapp
